@@ -199,6 +199,9 @@ export default function Pokedex({ history, match }) {
     switch (searchBy) {
       case "name":
       case "description":
+        if (localStorage.getItem("searchBy") != "name") {
+          localStorage.setItem("searchBy", "name");
+        }
         return pokemonData;
 
       case "type":

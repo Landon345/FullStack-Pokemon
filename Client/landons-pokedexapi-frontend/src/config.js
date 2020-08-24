@@ -1,1 +1,1 @@
-export const API_BASE_URL = "http://backend-projectV2.test/api/v1";
+export const API_BASE_URL = "http://landons-pokedex-backend.test/api/v1";
