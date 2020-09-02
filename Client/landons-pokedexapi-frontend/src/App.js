@@ -7,6 +7,7 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
+import { Box } from "@chakra-ui/core";
 import ProtectedRoute from "./ProtectedRoute";
 import { ThemeProvider } from "emotion-theming";
 import PokeTheme from "./PokeTheme";

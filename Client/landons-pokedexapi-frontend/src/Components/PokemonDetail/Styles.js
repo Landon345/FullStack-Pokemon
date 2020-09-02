@@ -4,6 +4,7 @@ import PokeTheme from "../../PokeTheme";
 export const Background = styled.div`
   background-color: ${(props) => PokeTheme.colors[props.color]};
   padding: 0px;
+  overflow: hidden;
   padding-bottom: 100px;
   margin: 0;
   min-height: 89vh;
