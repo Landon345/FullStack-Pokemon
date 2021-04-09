@@ -8,7 +8,7 @@
 - uses lodash to throttle/debounce input field for searching
 - able to search by ability, name, type, egg group, and description
 - uses chakra and emotion for styling
-- uses some react-framing for animations
+- uses some framer motion for animations
 - uses React.memo for better rendering performance
 - uses Formik for the login and register pages
 - uses react-router-dom for routing
